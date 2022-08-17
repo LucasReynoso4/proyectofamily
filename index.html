@@ -7,6 +7,8 @@
     <title>Family burger</title>
     <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="gridPadre">
     <header>
@@ -24,7 +26,7 @@
     <main>
     </main>
 
-    <div class="contenedor">
+    <div data-aos="fade-right" class="contenedor">
     <h2>PROMOCION DEL DIA</h2>
     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae numquam inventore soluta nisi neque perspiciatis nesciunt labore quae aut beatae autem impedit mollitia repellat, at qui? Possimus facere ipsa deleniti.1000$</h3>
     <br>
@@ -67,5 +69,10 @@
         </ul>
         <h4>Sitio web creado por Lucas Reynoso</h3> 
       </footer>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
